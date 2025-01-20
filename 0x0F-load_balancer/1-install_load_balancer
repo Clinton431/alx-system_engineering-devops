@@ -33,8 +33,8 @@ frontend abnb
     default_backend abnb_backend
 backend abnb_backend
     balance roundrobin
-    server 531470-web-01 54.224.28.195:80 check
-    server 531470-web-02 54.90.6.171:80 check
+    server 531470-web-01 52.3.242.92:80 check
+    server 531470-web-02 54.236.33.124:80 check
 
 " >> /etc/haproxy/haproxy.cfg
 
